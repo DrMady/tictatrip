@@ -1,0 +1,529 @@
+html
+{
+line-height: 1.15;
+-webkit-text-size-adjust: 100%;
+}
+body {
+   margin: 0;
+
+}
+
+li
+{
+	list-style:none;
+}
+
+b, .search__add-cui
+{
+	color: #01C3A7;
+}
+
+.button_get_on, .progress-button__button
+{
+outline: 0;
+border-radius: .3125em;
+border: 1px solid #01C3A7;
+border-bottom-color: rgb(1, 195, 167);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: #FFF;
+cursor: pointer;
+background-color: #01C3A7;
+background-image: none;
+border-bottom: 1px solid #01907c;
+padding: 8px 20px;
+line-height: 13px;
+font-weight: 600;
+box-shadow: none ;
+transform: none ;
+max-height:31px;
+}
+
+.signup-button
+{
+outline: 0;
+border-radius: .3125em;
+border: 1px solid #01C3A7;
+border-bottom-color: rgb(1, 195, 167);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: #FFF;
+cursor: pointer;
+background-color: #01C3A7;
+border-bottom: 1px solid #01907c;
+padding: 8px 20px;
+line-height: 13px;
+font-weight: 600;
+box-shadow: none ;
+text-decoration:none;
+letter-spacing: .025em;
+text-transform: uppercase;
+text-align: center;
+display: inline-block;
+font-size: 13px;
+margin-right:15px;
+}
+
+.header_signin-button 
+{
+outline: 0;
+border-radius: .3125em;
+border: 1px solid #01C3A7;
+border-bottom-color: rgb(1, 195, 167);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: #FFF;
+cursor: pointer;
+background-color: #01C3A7;
+border-bottom: 1px solid #01907c;
+padding: 8px 20px;
+line-height: 13px;
+font-weight: 600;
+box-shadow: none ;
+letter-spacing: .025em;
+text-transform: uppercase;
+text-align: center;
+display: inline-block;
+font-size: 13px;
+margin-right:15px;
+}
+
+.background_home
+{
+background-image: url(https://assets.trainline.eu/assets/images/open-home/covers/cover-beach-8dc53adfd913bec45958b705ec6369fa.jpg);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+height: 1089px;
+width:1400px;
+z-index: 0;
+}
+
+.header_container
+{
+	display:flex;
+background-color: rgba(33,49,77,.8);
+position: relative;
+z-index: 6;
+justify-content:center;
+}
+
+.header_account
+{
+	display:flex;
+	padding: 20px;
+	margin: auto;
+	align-items:center;
+	
+	
+}
+
+.header_logo{
+    display: block;
+    float: left;
+    white-space: nowrap;
+    cursor: pointer;
+    background: left center no-repeat;
+	background-image: url("trainline_logo.svg");
+	width:105px;
+	height:56px;
+	color:white;
+	padding-right: 300px;
+}
+
+.help_link
+{
+color: #FFF;
+background-color: transparent;
+min-width: 70px;
+letter-spacing: .025em;
+text-transform: uppercase;
+text-align: center;
+display: inline-block;
+font-size: 13px;
+text-decoration: none;
+cursor: pointer;
+}
+
+.help_link:hover {
+color: #FFF;
+background-color: #20304b;
+}
+
+.country-button
+{
+	border: 2px solid #C0C9CC;
+	border-radius: 5px;
+	transition: border-color .1s;
+	font-size: 100%;
+	margin-left:15px;
+}
+
+.country-button:hover {
+    border-color: #FFF;
+    box-shadow: 0 0 0 4px #21314D;
+}
+
+.currency-button
+{
+	margin-left:15px;
+	color:white;
+}
+
+.currency-button:hover {
+    border-color: #FFF;
+    box-shadow: 0 0 0 4px #21314D;
+}
+
+.country-button, .currency-button {
+    min-width: 30px;
+    min-height: 24px;
+    padding: 1px;
+    background: 0 0;
+}
+
+.title_container
+{
+	text-align:center;
+}
+
+.pannel_left
+{
+float: left;
+display: block;
+margin-right: 2.35765%;
+width: 48.82117%;
+padding: 24px 40px;
+background-color: #FFF;
+border-radius: .3125em;
+}
+
+.pannel_right
+{
+	width: -48.82117%;
+    display: block;
+    margin-right: 2.35765%;
+    background-color: #FFF;
+    border-radius: .3125em;
+    border: 1px solid #DCE3E6;
+}
+
+
+.pannel_header
+{
+padding: 18px 40px;
+background: #21314D;
+color: #FFF;
+}
+
+.pannel_content
+{
+	box-sizing: inherit;
+padding: 25px 40px;
+}
+
+.pannel_list
+{
+margin: 0;
+padding: 0;
+list-style: none;
+height: 255px;
+display: table;
+
+}
+
+.panel__app-download
+{
+	display: table;
+    table-layout: fixed;
+    margin: auto;
+}
+
+.search__departure-input {
+    background-image: url(https://assets.trainline.eu/assets/images/from-793fd74a5d09b687beb849fab15ae7a6.svg);
+}
+
+.search__arrival-input {
+    background-image: url(https://assets.trainline.eu/assets/images/to-3c0a8d746fa1464b9bd1f7be13b6b127.svg);
+}
+
+.search__departure-date-input {
+    background-image: url(https://assets.trainline.eu/assets/images/calendar-outward-021f4ddf731281274d7726a793a08a79.svg);
+}
+
+.search__return-date-input {
+    background-image: url(https://assets.trainline.eu/assets/images/calendar-inward-5d0aa59596158d156fcfa9e846b93e52.svg);
+}
+
+.search__input {
+    padding: 11px 0 11px 35px;
+    width: 100%;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    background-position: 11px center;
+}
+
+input {
+    outline: 0;
+    border-radius: .3125em;
+    border: 1px solid #DCE3E6;
+    padding: 10px;
+    text-align: left;
+    background-color: #FFF;
+}
+
+.search__add-participants {
+    background-image: url(https://assets.trainline.eu/assets/images/plus-hover-2ecb4373ceb73255b9d641e88ed2df22.svg);
+    background-size: 18px 18px;
+}
+
+.search__add-participants {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 100%;
+    padding: 0;
+    border: none;
+	border-left: 1px solid #DCE3E6;
+	background: url(https://assets.trainline.eu/assets/images/plus-217e7af9c79de44dfb56833d0cc554f6.svg) center no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.carrier_container
+{
+	text-align:center;
+	z-index: 7;
+}
+
+.intro_articles
+{
+background: #fff;
+padding: 60px 0 70px;
+text-align: center;	
+}
+
+.main_arg
+{
+	display:flex;
+table-layout: fixed;
+width: 100%;
+background: #F5F6F7;
+height: 500px;
+}
+
+.arg_text
+{
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	overflow: hidden;
+	width:952px;
+	height:500px;
+}
+
+.text_first
+{
+    margin-left: 80px;
+    margin-right: 80px;
+	padding-left: 65px;
+	direction: ltr;
+	text-align: left;
+	max-width: 470px;
+	padding: 65px 0;
+}
+
+.arg_illu_first
+{
+	background-repeat: no-repeat;
+	background-size: 760px;
+	background-position: right;
+	background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg);
+	width:952px;
+	height:500px;
+	box-sizing: inherit;
+}
+
+.text_second
+{
+	margin-left: 80px;
+	direction: ltr;
+	text-align: right;
+	max-width: 470px;
+	padding-right: 65px;
+	padding: 65px;
+}
+
+
+.arg_illu_second
+{
+	background-repeat: no-repeat;
+	background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg);
+	background-size: 760px;
+	background-position: left;
+	width:952px;
+	height:500px;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	box-sizing: inherit;
+}
+
+.text_third
+{
+    margin-left: 80px;
+    margin-right: 80px;
+	padding-left: 65px;
+	direction: ltr;
+	text-align: left;
+	max-width: 470px;
+	padding: 65px 0;
+}
+
+
+.arg_illu_third
+{
+	background-repeat: no-repeat;
+	background-size: 760px;
+    background-position: right;
+	width:952px;
+	height:500px;
+	background-image: url(https://assets.trainline.eu/assets/images/open-home/arguments/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg);
+
+}
+
+.article_features
+{
+text-align:center;
+background: url(https://assets.trainline.eu/assets/images/open-home/dots-pattern-9924c5c6be38a8d865f151c97c18d898.png) #fff;
+padding: 70px ;
+
+}
+
+.features_halves
+{
+display:flex;
+}
+
+.features_half
+{
+box-sizing: border-box;
+width: 50%;
+float: left;
+}
+
+.features-table
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.bus_teaser
+{
+padding: 4rem 2rem 2rem;
+text-align: center;
+background-color: #01C3A7;
+color: #FFF;
+}
+
+
+.article_proof
+{
+	background: #f5f5f5;
+	color: #323E42;
+	
+}
+
+.proof_content
+{
+	text-align:center;
+	margin: 0;
+}
+
+.proof_content > h2
+{
+	padding:30px 0 10px 0;
+	margin: 0;
+}
+
+.proof_content_links
+{
+	text-align:center;
+	margin: 0;
+	padding:50px;
+}
+
+.press__logo
+{
+	margin: 14px 14px 0;
+}
+
+.proof_tweets
+{
+	text-align: center;
+}
+
+.get_on
+{
+background: url(https://assets.trainline.eu/assets/images/open-home/dots-pattern-9924c5c6be38a8d865f151c97c18d898.png) #3F618C;
+padding: 60px 0;
+text-align: center;
+color: #FFF;
+}
+
+.footer_upper
+{
+background: #f5f5f5;
+font-size: 12px;
+display: flex;
+align-items:center;
+justify-content:center;
+}
+
+.row_upper
+{
+	display:flex;
+	
+}
+
+.footer-train-links
+{
+	display:flex;
+}
+
+
+.row_lower
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.footer-social
+{
+	display:flex;
+	padding:50px;
+	align-items:center;
+	width:50%;
+}
+
+.footer-social > h5 {
+    display: inline;
+    padding-right: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.footer-social > a img {
+    padding-right: 12px;
+}
+
+.footer-pay-logos > img:last-child 
+{
+    margin-left: 24px;
+}

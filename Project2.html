@@ -1,0 +1,517 @@
+<!-- WARNING 
+This project is incomplete due to a lack of time.
+I did not have time to fully finish it due to other constraints outside of this project.
+
+However if given more time , I could at least fully finish it along it's CSS.
+Keep in mind this project was done in a total of 10 hours instead of the 7 days given, due to personal and mostly medical reasons.
+
+I did not want to ask more days as I felt it would be asking too much. Hope you can understand.
+
+Thank you.
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta http-equiv="cleartype" content="on">
+  <title> Trainline </title>
+  <link rel="shortcut icon" href="https://www.trainline.eu/external_assets/favicons/favicon.ico" id="favicon">
+  <link rel="image_src" href="https://www.trainline.eu/external_assets/favicons/thumbnail.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="logos.css">
+</head>
+
+<body>
+
+<div class="body_container">
+<!--<div class="background_home"> </div>-->
+
+<header class="header_container">
+	<div class="header_content"> 
+		<div class="header_logo"> </div>
+		<ul class="header_account">
+			<li class="create_account"> 
+				<a href="https://www.trainline.eu/signup" class="signup-button"> Créer un compte</a>  
+			</li>
+			<li class="connect_account"> <button class="header_signin-button">
+        Se connecter
+      </button> </li>
+			<li class="help_account"> 
+				<a class="help_link">Aide</a>
+			</li>
+			<li class="language_account"> 
+				<button class="country-button">
+				<img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/fr-3f3d5b0b269d11f3a65fe5109e0ac701.svg" alt="France">
+				</button>
+			</li>
+			<li class="currency_account"> 
+				<button class="currency-button">EUR</button>
+			</li>
+		</ul>
+	
+	</div>
+</header>
+
+<main class="container_form">
+	<div class="title_container">
+		<h1 class="title"> Réservez vos billets de train et de bus. 
+		<br>
+		En France et en Europe.
+		</h1>
+		<h2 class="subtitle"> Voyagez avec Trainline, leader indépendant de la vente de billets de train et de bus en Europe. </h2>
+	</div>
+	<div class="search_forms"> 
+		<div class="pannel_left">
+		<div class="search_title">
+			Quel est votre trajet ?
+		</div>
+
+    <form>
+      <div class="search_section search_section--od">
+        <div class="search__field
+                 search__departure
+                 grouped-input--top
+                 required
+                 awaiting-input
+                 ">
+          <input tabindex="1" autocomplete="off" spellcheck="false" required="" placeholder="Saisissez votre gare de départ…" id="ember690" class="search__departure-input ember-text-field textfield station-text-field empty station-text-field-- search__input empty ember-view" type="text">
+        </div>
+
+
+        <div class="search__field
+                 search__arrival
+                 grouped-input--bottom
+                 required
+                 awaiting-input
+                 ">
+          <input tabindex="1" autocomplete="off" spellcheck="false" required="" placeholder="Saisissez votre gare d’arrivée…" id="ember695" class="search__arrival-input ember-text-field textfield station-text-field empty station-text-field-- search__input empty ember-view" type="text">
+        </div>
+
+        <button id="ember698" style="display: none;" class="search__swap swap-button swap-button--in-between ember-view"><div class="swap-button__equilibrium">
+  <span class="swap-button__label">Échanger les gares de départ et d’arrivée</span>
+</div>
+</button>
+      </div>
+
+      <div class="search__section search__section--date">
+        <div class="search__field
+                    search__departure-date
+                    grouped-input--top
+                    
+                    ">
+          <input tabindex="1" id="ember704" class="search__departure-date-input search__input" type="button">
+		  <div class="ct-placeholder" style="color: rgb(169, 169, 169); position: absolute; z-index: 2; -moz-user-select: none; line-height: 20px; left: 36px; margin-top: -30px;">Aller</div>
+
+         
+        </div>
+
+          <div class="search__field
+                      search__return-date
+                      grouped-input--bottom
+                      ">
+            <input tabindex="1" id="ember708" class="search__return-date-input search__input empty ember-view" type="button"><div class="ct-placeholder" style="color: rgb(169, 169, 169); position: absolute; z-index: 2; -moz-user-select: none; line-height: 20px; left: 36px; margin-top: -30px;">Retour</div>
+
+           
+          </div>
+      </div>
+
+            <div class="search__section search__section--participants">
+        <div class="search__field
+                 search__participants
+                 required
+                 
+                 search__participants--constrain
+                 
+                 grouped-input--single
+                 ">
+          <input tabindex="1" value="1 Adulte (26 - 59)" id="ember714" class="search__participants-input passengers-field passengers-field__passengers--1 search__input ember-view" type="button"><div class="ct-placeholder" style="color: rgb(169, 169, 169); position: absolute; z-index: 2; -moz-user-select: none; line-height: 20px; left: 36px; margin-top: -30px; display: none;">Passagers</div>
+
+            <button type="button" class="search__add-participants" data-ember-action="" data-ember-action-715="715">
+              Sélectionner d’autres passagers
+            </button>
+        </div>
+
+<!---->      </div>
+
+        <a class="search__add-cui">Utiliser un code de réduction</a>
+
+<div class="search__button progress-button"><button type="button" tabindex="1" class="button progress-button__button">
+          Rechercher
+
+</button>
+
+<div class="progress-button__bar">
+  <div style="width:0%"></div>
+</div>
+</div>    </form>
+		</div>
+		<div class="pannel_right">
+<header class="pannel_header">
+  <h3>Les petits plus de Trainline</h3>
+</header>
+
+<div class="pannel_content">
+    <ul class="pannel_list">
+        <li class="pannel_list-item">
+          <span class="icon--price"></span>
+          <div><b>Vos billets au meilleur prix</b><br> Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.</div>
+        </li>
+        <li class="pannel_list-item">
+          <span class="icon--loyalty-card"></span>
+          <div><b>Cartes de réduction</b><br> Elles sont toutes acceptées, comme vos cartes de fidélité.</div>
+        </li>
+        <li class="pannel_list-item">
+          <span class="icon--payment"></span>
+          <div><b>Payez en toute sécurité</b><br> CB, Amex, PayPal, Chèques-Vacances ANCV : c’est vous qui voyez.</div>
+        </li>
+    </ul>
+
+
+  <div class="panel__app-download">
+    <p class="panel__app-download-title">L’app leader pour voyager en train et en bus en Europe.</p>
+    <div class="panel__app-download-badges">
+      <a href="http://t.news.thetrainline.com/webApp/app_fr?referrer=fr_homePage">
+        <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/app_store-982918c20bc831835da249d342f31bbd.svg" alt="Télécharger dans l’App Store" class="landing-panel__app-download-badge">
+      </a>
+      <a href="http://t.news.thetrainline.com/webApp/app_fr?referrer=fr_homePage">
+        <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/google_play-5397aa8a86e85cf8920c5580245fd572.svg" alt="Disponible sur Google Play" class="landing-panel__app-download-badge">
+      </a>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+
+</main>
+</div>
+
+<article class="carrier_container">
+	<div class="carrier_title"> 
+		<h3 class="carriers-title"> 
+		Ils nous font confiance. Nous vendons leurs billets.
+		</h3>
+	</div>
+	<div class="carrier_logos"> 
+		<div class="primary">
+			<div class="logo sncf"> </div>
+			<div class="logo ouigo"> </div>
+			<div class="logo ouibus"> </div>
+			<div class="logo thalys"> </div>
+			<div class="logo eurostar"> </div>
+			<div class="logo lyria"> </div>
+			<div class="logo db"> </div>
+		</div>
+		<div class="secondary">
+			<div class="logo trenitalia"> </div>
+			<div class="logo thello"> </div>
+			<div class="logo italo"> </div>
+			<div class="logo renfe"> </div>
+			<div class="logo sncb"> </div>
+			<div class="logo ns"> </div>
+			<div class="logo cff"> </div>
+		</div>
+	</div>
+
+</article>
+
+<article class="intro_articles">
+	<div class="intro_content"> 
+		<h2> Tous les billets. Un seul guichet.</h2>
+        <p> Nous vendons tous les billets que vous avez l’habitude d’acheter en France <br>et tous ceux dont vous pourriez avoir besoin à l’étranger.</p>
+	</div>
+</article>
+
+<article class="article_arg">
+	<div class="main_arg"> 
+		<div class="arg_illu_first"> </div>
+		<div class="arg_text"> 
+			<div class="text_first">
+				<h2>C’est simple et c’est tout.</h2>
+				<p>Consultez les horaires des trains et le prix des billets dans une interface claire. Nous comparons les prix de plusieurs 
+				transporteurs, pour que vous n’ayez pas à le faire.</p>
+			</div>
+		</div>
+	</div>
+	<div class="main_arg"> 
+		<div class="arg_text"> 
+			<div class="text_second">
+            <h2>La très grande vitesse. Dès l’achat du billet.</h2>
+            <p>Trouvez et payez vos billets sur notre site en moins de 
+			temps qu’il n’en faut pour perdre patience sur un site ordinaire. Soit à
+			peu près 58 secondes.</p>
+			</div>
+		</div>
+		<div class="arg_illu_second"> </div>
+	</div>
+	<div class="main_arg"> 
+	
+		<div class="arg_illu_third"> </div>
+		<div class="arg_text"> 
+			<div class="text_third">
+            <h2>Sans pub et sans reproche.</h2>
+            <p>En choisissant de ne vendre que des billets, nous avons 
+			dû laisser certaines choses de côté, comme les publicités, les messages 
+			et les erreurs incompréhensibles.</p>
+			</div>
+		</div>
+		
+	</div>
+</article>
+
+<article class="article_features">
+	<h2> Comment ça marche ? </h2>
+	<div class="features_halves">
+	<div class="features_half"> 
+		<h3>Paiement</h3>
+
+        <div class="features-table">
+            <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/cards-cc4ccb22567fa0fec204e7aaae7a3f8b.svg" class="icon-cards" width="139" height="95">
+          <div class="or">Ou</div>
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/paypal-d4915d56d6160a55c7888417ae53a658.svg" class="icon-paypal" width="110" height="34">
+        </div>
+		<p>Nous soignons et sécurisons vos achats <br>comme s’ils n’avaient pas de prix.</p>
+	</div>
+	
+	<div class="features_half"> 
+		<h3>Billets</h3>
+		<div class="features-table">
+            <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/tickets-5842361da60d84a811b13651729c7b2b.svg" class="icon-tickets" width="120" height="85">
+            <div class="or">Ou</div>
+            <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/eticket-89bda370d79334ab48d0b16eebe40764.svg" class="icon-eticket" width="90" height="95">
+        </div>
+		<p>Vous obtenez un billet cartonné à retirer en gare <br>ou un e-billet à imprimer chez vous.</p>
+	</div>
+	</div>
+
+</article>
+
+<article class="bus_teaser">
+	<h2>Allez-y (aussi) en bus</h2>
+    <p class="bus-teaser__description">Nous vendons également des billets de bus pour que vous ayez le choix, sans l’embarras.</p>
+    <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/bus_teaser-b029eca7372f7fcae1eaf703f3f598b7.svg" alt="Bus ticket sale teaser">
+
+</article>
+
+<article class="article_proof">
+	<div class="proof_content"> 
+		<h2>Demandez conseil à nos utilisateurs.</h2>
+        <p>Tout le marketing du monde ne remplacera jamais ce que nos utilisateurs disent de nous. <br>C’est encore eux qui parlent le mieux de notre service.</p>
+	</div>
+
+	<!-- PLACEHOLDERS-->
+	<div class="proof_tweets"> 
+	<ul class="open-home__tweets">
+      <li class="open-home__tweet">
+        <div id="ember1017" class="ember-view"><iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: absolute; visibility: hidden; display: block; width: 0px; height: 0px; padding: 0px; border: medium none;" frameborder="0"></iframe>
+			<blockquote data-width="320" data-cards="hidden" data-conversation="none" data-lang="fr" data-dnt="true" class="twitter-tweet twitter-tweet-error" data-twitter-extracted-i1536082338318317026="true">
+	Mes voyages sont maintenant "sponsorisés" par @<a class="tweet-url username" href="https://twitter.com/Trainline_fr" data-screen-name="Trainline_fr" rel="nofollow">Trainline_fr</a> 😊
+🚄💨 <a href="https://t.co/tIa35xL3gV" rel="nofollow">https://t.co/tIa35xL3gV</a>
+  <a href="https://twitter.com/Tibimac/status/989940510373576704">le 27 avril 2018</a>
+			</blockquote>
+		</div>
+      </li>
+      <li class="open-home__tweet">
+        <div id="ember1019" class="ember-view"><iframe id="twitter-widget-1" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: absolute; visibility: hidden; display: block; width: 0px; height: 0px; padding: 0px; border: medium none;" frameborder="0"></iframe><blockquote data-width="320" data-cards="hidden" data-conversation="none" data-lang="fr" data-dnt="true" class="twitter-tweet twitter-tweet-error" data-twitter-extracted-i1536082338318317026="true">
+  Bravo pour le professionnalisme et les remboursements suite au mouvement de grève @<a class="tweet-url username" href="https://twitter.com/trainline_fr" data-screen-name="trainline_fr" rel="nofollow">trainline_fr</a>
+  <a href="https://twitter.com/MiistaMista/status/984101782765953024">le 11 avril 2018</a>
+</blockquote>
+</div>
+      </li>
+      <li class="open-home__tweet">
+        <div id="ember1021" class="ember-view"><iframe id="twitter-widget-2" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: absolute; visibility: hidden; display: block; width: 0px; height: 0px; padding: 0px; border: medium none;" frameborder="0"></iframe><blockquote data-width="320" data-cards="hidden" data-conversation="none" data-lang="fr" data-dnt="true" class="twitter-tweet twitter-tweet-error" data-twitter-extracted-i1536082338318317026="true">
+  A Macôn Loché TGV, le TGV est loin d'être plein. D'ailleurs j'ai payé mes billets au tarif le plus bas. Merci @<a class="tweet-url username" href="https://twitter.com/trainline_fr" data-screen-name="trainline_fr" rel="nofollow">trainline_fr</a> ;-)
+  <a href="https://twitter.com/vladroo/status/981401124996608001">le 04 avril 2018</a>
+</blockquote>
+</div>
+      </li>
+  </ul>
+  <!-- PLACEHOLDERS-->
+  
+	<a href="#" class="tweets_load-more ">
+    Plus d’amour…
+	</a>
+	</div>
+	
+	<div class="proof_content_links"> 
+		<a href="https://www.trainline.fr/press" class="press_link">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/france2-426c29639e964b6b8131b2234de3fa0e.png" alt="france2" class="press__logo press__logo--france2">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/20min-dee5c2ef164835bc76e9bf418954ce06.png" alt="20min" class="press__logo press__logo--20min">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/canalplus-3b6414c4f6fead5711bf008ec8f09c21.png" alt="canalplus" class="press__logo press__logo--canalplus">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/challenges-d3f3161570179835b0735642742763ef.png" alt="challenges" class="press__logo press__logo--challenges">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/figaro-13b783c88bd90131113156f4028dfee5.png" alt="figaro" class="press__logo press__logo--figaro">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/lci-0e0a2cba409560b2eb6b9e7563930181.png" alt="lci" class="press__logo press__logo--lci">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/lemonde-bb82c17ccd314dffc91373f3d72104fb.png" alt="lemonde" class="press__logo press__logo--lemonde">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/ouifm-62b6adbb090d1496b440ba9ce15873f3.png" alt="ouifm" class="press__logo press__logo--ouifm">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/parisien-5ff202730d637a2c595eeb976c133c40.png" alt="parisien" class="press__logo press__logo--parisien">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/techcrunch-55076242894a2d1ff551f1f6765f5ef7.png" alt="techcrunch" class="press__logo press__logo--techcrunch">
+		</a>
+	  </div>
+</article>
+
+<article class="get_on">
+	<div class="home_content"> <h2>Montez à bord !</h2>
+        <p>Arrêtez de vous prendre la tête. Prenez le train.</p>
+        <button type="button" class="button_get_on">Réservez un billet</button>
+      </div>
+</article>
+
+<footer class="footer_container">
+
+	<div class="footer_upper"> 
+	
+	<!-- PLACEHOLDERS-->
+	    <div class="container">
+      <div class="row_upper">
+        
+        <div class="footer-company-info">
+          <div class="row">
+            <div class="col-md-12 col-xs-6">
+              <div class="footer-spacer">
+                <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/trainline-logo-cf635433ef235d4f4eb00da841ad174c.svg" alt="Trainline" class="tle-footer-logo">
+              </div>
+              <ul>
+                <li><a href="https://www.trainline.fr/contact">Contacter Trainline</a></li>
+                <li><a href="https://aide.trainline.fr/">Site d’aide</a></li>
+                <li><a href="https://www.trainline.fr/about/us">Qui sommes-nous ?</a></li>
+                <li>
+                  <a href="https://media.trainline.com/fr">Informations presse</a>
+                  <span class="tle-footer-ampersand">&</span>
+                  <a href="https://blog.trainline.fr/">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-12 col-xs-6">
+              <ul>
+                <li><a href="https://www.trainline.fr/business">Pour les entreprises</a></li>
+                <li><a href="https://www.trainline.fr/jobs">Offres d’emploi</a></li>
+                <li>
+                  <a href="https://www.trainline.fr/terms">CGV</a>
+                  <span class="footer-ampersand">&</span>
+                  <a href="https://www.trainline.fr/legal-information">Informations légales</a>
+                </li>
+                <li>
+                  <a href="https://www.trainline.fr/privacy-policy">Données personnelles</a>
+                  <span class="footer-ampersand">&</span>
+                  <a href="https://www.trainline.fr/cookies">Cookies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+		
+		<div class="footer-app">
+          <div class="tle-footer-app-cta">
+		  <div class="tle-footer-textbox">
+              <p>Chaque mois, plus de 16,5 millions de personnes visitent les sites ou applications Trainline. <a href="https://www.thetrainline.com/fr/information/trainline-eu-app">Téléchargez l’app</a>.</p>
+            </div>
+            <div class="footer-icons">
+              <a href="https://itunes.apple.com/fr/app/id599502670">
+                <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/app_store-982918c20bc831835da249d342f31bbd.svg" alt="Télécharger dans l’App Store">
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.capitainetrain.android&amp;hl=fr">
+                <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/google_play-5397aa8a86e85cf8920c5580245fd572.svg" alt="Disponible sur Google Play">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="row_mess">
+          
+            <div class="footer-train-links">
+              <nav class="col-sm-3 col-xs-6">
+                <ul>
+                  <li><h4><a href="https://www.thetrainline.com/fr/destinations">Destinations</a></h4></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-paris">Trains pour Paris</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-lyon">Trains pour Lyon</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-nice">Trains pour Nice</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-marseille">Trains pour Marseille</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-bordeaux">Trains pour Bordeaux</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-toulouse">Trains pour Toulouse</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/destinations/trains-pour-montpellier">Trains pour Montpellier</a></li>
+                </ul>
+              </nav>
+              <nav class="col-sm-3 col-xs-6">
+                <ul>
+                  <li><h4><a href="https://www.thetrainline.com/fr/horaires-train">Horaires</a></h4></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/paris-a-marseille">Paris – Marseille</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/marseille-a-paris">Marseille – Paris</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/paris-a-lyon">Paris – Lyon</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/paris-a-bordeaux">Paris – Bordeaux</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/paris-a-toulouse">Paris – Toulouse</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/paris-a-lille">Paris – Lille</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/horaires-train/paris-a-londres">Paris – Londres</a></li>
+                </ul>
+              </nav>
+              <nav class="col-sm-3 col-xs-6">
+                <ul>
+                  <li><h4><a href="https://www.thetrainline.com/fr/gares" itemprop="url">Gares</a></h4></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/paris-gare-du-nord">Paris Gare du Nord</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/paris-gare-de-lyon">Paris Gare de Lyon</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/paris-gare-montparnasse">Paris Gare Montparnasse</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/paris-gare-de-lest">Paris Gare de l’Est</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/lyon-part-dieu">Lyon Part-Dieu</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/paris-gare-st-lazare">Paris Gare St-Lazare</a></li>
+                    <li><a href="https://www.thetrainline.com/fr/gares/marseille-st-charles">Marseille St-Charles</a></li>
+                </ul>
+              </nav>
+              <nav class="col-sm-3 col-xs-6">
+                <ul>
+                  <li><h4><a href="https://www.thetrainline.com/fr/information">Voyager en train</a></h4></li>
+                    <li><a href="https://www.thetrainline.com/fr/compagnies-ferroviaires/sncf">SNCF</a>
+                        <span>&amp;</span> <a href="https://www.thetrainline.com/fr/compagnies-ferroviaires/tgv">TGV</a>
+                    </li>
+                    <li><a href="https://www.thetrainline.com/fr/compagnies-ferroviaires/ouigo">OUIGO</a>
+                        <span>&amp;</span> <a href="https://www.thetrainline.com/fr/compagnies-de-bus/ouibus">Ouibus</a>
+                    </li>
+                    <li><a href="https://www.thetrainline.com/fr/compagnies-ferroviaires/eurostar">Eurostar</a>
+						</li>
+                    <li><a href="https://www.thetrainline.com/fr/compagnies-de-bus/eurolines">Eurolines</a>
+						</li>
+                    <li><a href="https://www.thetrainline.com/fr/information/cartes-abonnements-de-train">Cartes &amp; abonnements SNCF</a>
+						</li>
+                    <li><a href="https://www.thetrainline.com/fr/information/interrail">Pass Interrail</a>
+						</li><li>
+                      <a href="https://www.thetrainline.com/fr/aeroports">Trains pour les aéroports </a>
+						</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- PLACEHOLDERS-->
+	</div>
+	
+	<div class="footer_lower"> 
+	    <div class="container_lower">
+      <div class="row_lower">
+        <div class="footer-social">
+          <h5>Suivez-nous</h5>
+          <a href="https://www.facebook.com/trainline.fr"><img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/facebook-845e0f46ff9016203d5e6786a33396f2.svg" alt="Facebook"></a>
+          <a href="https://twitter.com/trainline_fr"><img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/twitter-e23662441d4b97c1639c49bb44f7388a.svg" alt="Twitter"></a>
+        </div>
+      
+        <div class="footer-pay-logos">
+            <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/apple-pay-logo-9ae0cfc509e5cdfb136913a153b7043e.svg" alt="Apple Pay">
+          <img src="Horaires%20et%20billets%20de%20train%20et%20de%20bus,%20en%20France%20et%20en%20Europe%20%20%20Trainline_fichiers/paypal-logo-cc1f95a91a1f56b951a3b6d89c8a9e86.svg" alt="PayPal">
+        </div>
+      </div>
+    </div>
+	</div>
+
+</footer>
+
+</body>
+
+</html>
+
